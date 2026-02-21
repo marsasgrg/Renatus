@@ -1,0 +1,9 @@
+renzar = {
+	county = c_R63G246B62
+
+	character_modifier = {
+		name = holy_site_kiev_effect_name
+		monthly_piety_gain_mult = 0.1
+		knight_effectiveness_mult = 0.2
+	}
+}

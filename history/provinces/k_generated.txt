@@ -1,6 +1,6 @@
 1 = {
 	culture = breton
-	religion = catholic
+	religion = kalinist
 	holding = tribal_holding
 }
 2 = {
