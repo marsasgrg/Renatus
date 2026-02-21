@@ -1,0 +1,14 @@
+version="0.1"
+tags={
+	"Map"
+}
+name="Renatus Mod"
+replace_path="common/landed_titles"
+replace_path="common/province_terrain"
+replace_path="history/characters"
+replace_path="history/provinces"
+replace_path="history/titles"
+replace_path="gfx/map/map_object_data/generated"
+replace_path="gfx/map/map_object_data"
+replace_path="map_data"
+supported_version="1.18.2"

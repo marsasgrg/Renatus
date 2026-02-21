@@ -1,0 +1,20 @@
+﻿1 = {
+	winter_severity_bias = 0.00
+}
+
+
+2 = {
+	winter_severity_bias = 0.00
+}
+
+3 = {
+	winter_severity_bias = 0.00
+}
+
+4 = {
+	winter_severity_bias = 0.00
+}
+
+5 = {
+	winter_severity_bias = 0.00
+}
