@@ -4,6 +4,7 @@ tags={
 }
 name="Renatus Mod"
 replace_path="common/landed_titles"
+replace_path="common/coat_of_arms/dynamic_definitions"
 replace_path="common/province_terrain"
 replace_path="history/characters"
 replace_path="history/provinces"
