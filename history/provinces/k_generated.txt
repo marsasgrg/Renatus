@@ -1,5 +1,5 @@
 1 = {
-	culture = breton
+	culture = gravezko
 	religion = kalinist
 	holding = tribal_holding
 }

@@ -1,0 +1,26 @@
+﻿heritage_smolov = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_smolov
+		}
+	}
+	audio_parameter = european
+}
+language_smolov = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_smolov
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_smolov }
+			multiply = 10
+		}
+	}
+	
+	color =  { 0.65 0.8 0.3 }
+}

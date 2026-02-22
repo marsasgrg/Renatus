@@ -3,7 +3,7 @@
 	female = no
 	dynasty = dynn_gen_1
 	religion = kalinist
-	culture = "breton"
+	culture = "gravezko"
 	794.2.18 = {
 		birth = yes
 	}
@@ -17,7 +17,7 @@ gen_2 = {
 	female = no
 	dynasty = dynn_gen_1
 	religion = kalinist
-	culture = "breton"
+	culture = "gravezko"
 	1040.2.18 = {
 		birth = yes
 	}
@@ -31,7 +31,7 @@ gen_3 = {
 	female = no
 	dynasty = dynn_gen_1
 	religion = kalinist
-	culture = "breton"
+	culture = "gravezko"
 	1150.2.18 = {
 		birth = yes
 	}

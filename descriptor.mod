@@ -15,4 +15,8 @@ replace_path="map_data"
 replace_path="common/religion/religions"
 replace_path="common/religion/religion_families"
 replace_path="common/religion/holy_sites"
+replace_path="common/culture/aesthetics_bundles"
+replace_path="common/culture/creation_names"
+replace_path="common/culture/cultures"
+
 supported_version="1.18.2"
