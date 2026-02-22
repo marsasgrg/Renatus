@@ -19,4 +19,4 @@ replace_path="common/culture/aesthetics_bundles"
 replace_path="common/culture/creation_names"
 replace_path="common/culture/cultures"
 
-supported_version="1.18.3"
+supported_version="1.18.3.*"
