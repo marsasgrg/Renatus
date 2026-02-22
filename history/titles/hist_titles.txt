@@ -2,11 +2,18 @@ k_renzar = {
 	480.1.1 = {
 		holder = renzar_aleksandr_first
 	}
+	498.7.6 = {
+		holder = renzar_boris_first
+	}
 
 }
 d_east_renzar = {
 	480.1.1 = {
 		holder = renzar_aleksandr_first
+		liege = k_renzar
+	}
+	498.7.6 = {
+		holder = renzar_boris_first
 		liege = k_renzar
 	}
 }
@@ -15,16 +22,28 @@ c_north_cape_renzar = {
 		holder = renzar_aleksandr_first
 		liege = d_east_renzar	
 	}
+	498.7.6 = {
+		holder = renzar_boris_first
+		liege = d_east_renzar
+	}
 }
 c_west_cape_renzar = {
 	480.1.1 = {
 		holder = renzar_aleksandr_first
 		liege = d_east_renzar	
 	}
+	498.7.6 = {
+		holder = renzar_boris_first
+		liege = d_east_renzar
+	}
 }
 c_east_cape_renzar = {
 	480.1.1 = {
 		holder = renzar_aleksandr_first
 		liege = d_east_renzar	
+	}
+	498.7.6 = {
+		holder = renzar_boris_first
+		liege = d_east_renzar
 	}
 }

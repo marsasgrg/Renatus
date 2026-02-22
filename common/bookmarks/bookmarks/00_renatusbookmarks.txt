@@ -8,17 +8,17 @@
 	}
 
 	character = {
-		name = "bookmark_renzar_aleksandr"
+		name = "bookmark_renzar_boris"
 		dynasty = aleksandrovich
 		dynasty_splendor_level = 1
 		type = male
-		birth = 415.6.7
+		birth = 449.6.7
 		title = k_renzar
 		government = feudal_government
 		culture = gravezko
 		religion = kalinist 
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = renzar_aleksandr_first
+		history_id = renzar_boris_first
 		position = { 240 400 }
 		
 		animation = war_over_win
