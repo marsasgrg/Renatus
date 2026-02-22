@@ -3,6 +3,7 @@
 	female = no
 	dynasty = aleksandrovich
 	religion = kalinist
+	trait = education_diplomacy_4
 	culture = "gravezko"
 	415.6.7 = {
 		birth = yes
