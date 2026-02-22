@@ -18,5 +18,5 @@ replace_path="common/religion/holy_sites"
 replace_path="common/culture/aesthetics_bundles"
 replace_path="common/culture/creation_names"
 replace_path="common/culture/cultures"
-
+replace_path="common/bookmarks/"
 supported_version="1.18.3.*"

@@ -1,0 +1,27 @@
+﻿bm_500_renatus = {
+	start_date = 500.1.1
+	is_playable = yes
+	group = bm_group_500
+
+	weight = {
+		value = 1
+	}
+
+	character = {
+		name = "bookmark_renzar_aleksandr"
+		dynasty = aleksandrovich
+		dynasty_splendor_level = 1
+		type = male
+		birth = 415.6.7
+		title = k_renzar
+		government = tribal_government
+		culture = gravezko
+		religion = kalinist 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = renzar_aleksandr_first
+		position = { 1130 770 }
+		
+		animation = war_over_win
+	}
+
+}

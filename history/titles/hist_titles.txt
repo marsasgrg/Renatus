@@ -1,18 +1,18 @@
 k_renzar = {
 	480.1.1 = {
-		holder = gen_1
+		holder = renzar_aleksandr_first
 	}
 
 }
 d_east_renzar = {
 	480.1.1 = {
-		holder = gen_1
+		holder = renzar_aleksandr_first
 		liege = k_renzar
 	}
 }
 c_cape_renzar = {
 	480.1.1 = {
-		holder = gen_1
+		holder = renzar_aleksandr_first
 		liege = d_east_renzar	
 	}
 }

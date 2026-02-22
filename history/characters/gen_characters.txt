@@ -1,4 +1,4 @@
-﻿gen_1 = {
+﻿renzar_aleksandr_first = {
 	name = "Aleksandr"
 	female = no
 	dynasty = aleksandrovich
