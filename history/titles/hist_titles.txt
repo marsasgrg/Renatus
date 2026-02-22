@@ -1,4 +1,4 @@
-e_R254G38B180 = {
+e_delta = {
 	851.7.7 = {
 		holder = gen_1
 	}
@@ -9,45 +9,45 @@ e_R254G38B180 = {
 		holder = gen_3
 	}
 }
-k_R136G144B120 = {
+k_renzar = {
 	851.7.7 = {
 		holder = gen_1
-		liege = e_R254G38B180	
+		liege = e_delta	
 	}
 	1065.1.1 = {
 		holder = gen_2
-		liege = e_R254G38B180
+		liege = e_delta
 	}
 	1177.1.1 = {
 		holder = gen_3
-		liege = e_R254G38B180
+		liege = e_delta
 	}
 }
-d_R145G96B58 = {
+d_east_renzar = {
 	851.7.7 = {
 		holder = gen_1
-		liege = k_R136G144B120
+		liege = k_renzar
 	}
 	1065.1.1 = {
 		holder = gen_2
-		liege = k_R136G144B120
+		liege = k_renzar
 	}
 	1177.1.1 = {
 		holder = gen_3
-		liege = k_R136G144B120
+		liege = k_renzar
 	}
 }
-c_R63G246B62 = {
+c_cape_renzar = {
 	851.7.7 = {
 		holder = gen_1
-		liege = d_R145G96B58	
+		liege = d_east_renzar	
 	}
 	1065.1.1 = {
 		holder = gen_2
-		liege = d_R145G96B58
+		liege = d_east_renzar
 	}
 	1177.1.1 = {
 		holder = gen_3
-		liege = d_R145G96B58
+		liege = d_east_renzar
 	}
 }

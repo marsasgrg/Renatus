@@ -1,34 +1,34 @@
-﻿e_R254G38B180 = {
+﻿e_delta = {
   color = { 254 38 180 }
-  capital = c_R63G246B62
-  k_R136G144B120 = {
+  capital = c_cape_renzar
+  k_renzar = {
     color = { 136 144 120 }
-    capital = c_R63G246B62
-    d_R145G96B58 = {
+    capital = c_cape_renzar
+    d_east_renzar = {
       color = { 145 96 58 }
-      capital = c_R63G246B62
-      c_R63G246B62 = {
+      capital = c_cape_renzar
+      c_cape_renzar = {
         color = { 63 246 62 }
-        b_R81G118B156 = {
+        b_cape_renzar = {
           province = 1
           color = { 63 246 62 }
         }
-		b_R100G150B200 = {
-		  province = 2
-		  color = { 63 246 62 }
-		}
-		b_R181G100B200 = {
-		  province = 3
-		  color = { 63 246 62 }
-		}
-		b_R199G228B35 = {
-		  province = 4
-		  color = { 63 246 62 }
-		}
-		b_R202G27B27 = {
-		  province = 5
-		  color = { 63 246 62 }
-		}
+        b_R100G150B200 = {
+          province = 2
+          color = { 63 246 62 }
+        }
+        b_R181G100B200 = {
+          province = 3
+          color = { 63 246 62 }
+        }
+        b_R199G228B35 = {
+          province = 4
+          color = { 63 246 62 }
+        }
+        b_R202G27B27 = {
+          province = 5
+          color = { 63 246 62 }
+        }
       }
     }
   }
