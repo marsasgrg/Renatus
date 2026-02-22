@@ -7,7 +7,7 @@
 	holding = city_holding
 }
 3 = {
-	holding = temple_holding
+	holding = church_holding
 }
 4 = {
 	culture = gravezko
