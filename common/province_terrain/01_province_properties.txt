@@ -18,6 +18,18 @@
 5 = {
 	winter_severity_bias = 0.00
 }
+6 = {
+	winter_severity_bias = 0.00
+}
+7 = {
+	winter_severity_bias = 0.00
+}
 8 = {
+	winter_severity_bias = 0.00
+}
+9 = {
+	winter_severity_bias = 0.00
+}
+12 = {
 	winter_severity_bias = 0.00
 }

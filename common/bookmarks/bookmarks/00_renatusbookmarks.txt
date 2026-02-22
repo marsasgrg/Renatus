@@ -14,7 +14,7 @@
 		type = male
 		birth = 415.6.7
 		title = k_renzar
-		government = tribal_government
+		government = feudal_government
 		culture = gravezko
 		religion = kalinist 
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"

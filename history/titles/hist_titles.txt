@@ -10,7 +10,19 @@ d_east_renzar = {
 		liege = k_renzar
 	}
 }
-c_cape_renzar = {
+c_north_cape_renzar = {
+	480.1.1 = {
+		holder = renzar_aleksandr_first
+		liege = d_east_renzar	
+	}
+}
+c_west_cape_renzar = {
+	480.1.1 = {
+		holder = renzar_aleksandr_first
+		liege = d_east_renzar	
+	}
+}
+c_east_cape_renzar = {
 	480.1.1 = {
 		holder = renzar_aleksandr_first
 		liege = d_east_renzar	

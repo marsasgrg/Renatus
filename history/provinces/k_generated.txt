@@ -1,17 +1,33 @@
 1 = {
 	culture = gravezko
 	religion = kalinist
-	holding = tribal_holding
+	holding = castle_holding
 }
 2 = {
-	holding = none
+	holding = city_holding
 }
 3 = {
-	holding = none
+	holding = temple_holding
 }
 4 = {
-	holding = none
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
 }
 5 = {
+	holding = none
+}
+6 = {
+	holding = none
+}
+7 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+8 = {
+	holding = none
+}
+9 = {
 	holding = none
 }

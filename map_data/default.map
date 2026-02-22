@@ -15,7 +15,7 @@ seasons = "seasons.txt"
 #############
 # SEA ZONES
 #############
-sea_zones = LIST { 6 7 }
+sea_zones = LIST { 10 11 }
 
 ###############
 # MAJOR RIVERS
@@ -31,4 +31,4 @@ sea_zones = LIST { 6 7 }
 # IMPASSABLE TERRAIN
 #####################
 # (Add impassable_mountains / impassable_seas here if you tag them)
-impassable_mountains = LIST {8}
+impassable_mountains = LIST {12}
