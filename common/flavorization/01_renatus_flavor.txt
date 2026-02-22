@@ -1,0 +1,16 @@
+﻿renzarene_tsar = {
+	type = character
+	gender = male
+	special = holder
+	priority = 60
+	titles = { k_renzar }
+
+}
+renzarene_tsaritsa = {
+	type = character
+	gender = male
+	special = holder
+	priority = 60
+	titles = { k_renzar }
+
+}

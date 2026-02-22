@@ -1,7 +1,7 @@
 ﻿gen_1 = {
-	name = "CK2RPG"
+	name = "Aleksandr"
 	female = no
-	dynasty = dynn_gen_1
+	dynasty = aleksandrovich
 	religion = kalinist
 	culture = "gravezko"
 	794.2.18 = {
@@ -13,9 +13,9 @@
 }
 
 gen_2 = {
-	name = "CK2RPG"
+	name = "Aleksandr"
 	female = no
-	dynasty = dynn_gen_1
+	dynasty = aleksandrovich
 	religion = kalinist
 	culture = "gravezko"
 	1040.2.18 = {
@@ -27,9 +27,9 @@ gen_2 = {
 }
 
 gen_3 = {
-	name = "CK2RPG"
+	name = "Aleksandr"
 	female = no
-	dynasty = dynn_gen_1
+	dynasty = aleksandrovich
 	religion = kalinist
 	culture = "gravezko"
 	1150.2.18 = {

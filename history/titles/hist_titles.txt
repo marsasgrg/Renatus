@@ -1,26 +1,13 @@
-e_delta = {
-	851.7.7 = {
-		holder = gen_1
-	}
-	1065.1.1 = {
-		holder = gen_2
-	}
-	1177.1.1 = {
-		holder = gen_3
-	}
-}
 k_renzar = {
 	851.7.7 = {
 		holder = gen_1
-		liege = e_delta	
 	}
 	1065.1.1 = {
 		holder = gen_2
-		liege = e_delta
 	}
 	1177.1.1 = {
 		holder = gen_3
-		liege = e_delta
+		
 	}
 }
 d_east_renzar = {
