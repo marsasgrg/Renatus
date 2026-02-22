@@ -1,40 +1,18 @@
 k_renzar = {
-	851.7.7 = {
+	480.1.1 = {
 		holder = gen_1
 	}
-	1065.1.1 = {
-		holder = gen_2
-	}
-	1177.1.1 = {
-		holder = gen_3
-		
-	}
+
 }
 d_east_renzar = {
-	851.7.7 = {
+	480.1.1 = {
 		holder = gen_1
-		liege = k_renzar
-	}
-	1065.1.1 = {
-		holder = gen_2
-		liege = k_renzar
-	}
-	1177.1.1 = {
-		holder = gen_3
 		liege = k_renzar
 	}
 }
 c_cape_renzar = {
-	851.7.7 = {
+	480.1.1 = {
 		holder = gen_1
 		liege = d_east_renzar	
-	}
-	1065.1.1 = {
-		holder = gen_2
-		liege = d_east_renzar
-	}
-	1177.1.1 = {
-		holder = gen_3
-		liege = d_east_renzar
 	}
 }

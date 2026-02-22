@@ -4,38 +4,10 @@
 	dynasty = aleksandrovich
 	religion = kalinist
 	culture = "gravezko"
-	794.2.18 = {
+	415.6.7 = {
 		birth = yes
 	}
-	922.7.11 = {
-		death = yes
-	}
-}
-
-gen_2 = {
-	name = "Aleksandr"
-	female = no
-	dynasty = aleksandrovich
-	religion = kalinist
-	culture = "gravezko"
-	1040.2.18 = {
-		birth = yes
-	}
-	1140.7.11 = {
-		death = yes
-	}
-}
-
-gen_3 = {
-	name = "Aleksandr"
-	female = no
-	dynasty = aleksandrovich
-	religion = kalinist
-	culture = "gravezko"
-	1150.2.18 = {
-		birth = yes
-	}
-	1250.7.11 = {
+	535.6.7 = {
 		death = yes
 	}
 }
