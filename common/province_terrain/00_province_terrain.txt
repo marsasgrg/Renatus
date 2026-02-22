@@ -8,3 +8,4 @@ default_coastal_sea=coastal_sea
 5=plains
 6=sea
 7=sea
+8=plains

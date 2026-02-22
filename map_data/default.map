@@ -31,3 +31,4 @@ sea_zones = LIST { 6 7 }
 # IMPASSABLE TERRAIN
 #####################
 # (Add impassable_mountains / impassable_seas here if you tag them)
+impassable_mountains = LIST {8}
