@@ -4,7 +4,7 @@
 	group = bm_group_500
 
 	weight = {
-		value = 1
+		value = 1000
 	}
 
 	character = {
