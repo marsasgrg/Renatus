@@ -20,7 +20,7 @@ renzar_boris_first = {
 	religion = kalinist
 	trait = education_stewardship_4
 	culture = "gravezko"
-	449.6.7 = {
+	467.6.7 = {
 		birth = yes
 	}
 }
@@ -36,6 +36,7 @@ erkin = {
 	trait = brave
 	trait = cynical
 	trait = honest
+	trait = athletic
 	trait = strong
 	trait = physique_good_3
 	417.9.11 = {
