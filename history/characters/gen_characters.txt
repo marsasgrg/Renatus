@@ -23,7 +23,37 @@ renzar_boris_first = {
 	449.6.7 = {
 		birth = yes
 	}
-	550.7.6 = {
+}
+
+erkin = {
+	name = "Erkin"
+	female = no
+	dynasty_house = erkinid
+	culture = boz_otkenli
+	religion = kizil_gok_yol
+	trait = bastard_founder
+	trait = education_martial_5
+	trait = brave
+	trait = cynical
+	trait = honest
+	trait = strong
+	trait = physique_good_3
+	417.9.11 = {
+		birth = yes
+	}
+}
+
+erdeniz = {
+	name = "Erdeniz"
+	female = no
+	dynasty = kaganid
+	culture = boz_otkenli
+	religion = gok_yol
+	trait = education_martial_5
+	394.1.1 = {
+		birth = yes
+	}
+	519.6.7 = {
 		death = yes
 	}
 }

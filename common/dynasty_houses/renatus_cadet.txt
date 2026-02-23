@@ -1,0 +1,4 @@
+﻿erkinid = {
+	name = erkinid
+	dynasty = kaganid
+}
