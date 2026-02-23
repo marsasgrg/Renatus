@@ -1,20 +1,16 @@
-portrait_dde_hre_clothing_trigger = {
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = scope:culture
-		CULTURE_FLAG = dde_hre
-	}
-    always = false
+﻿portrait_dde_hre_clothing_trigger = {
+    always = no
 	has_dlc = "Garments of the Holy Roman Empire"
 }
 
 portrait_dde_hre_clothing_spouse_trigger = {
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = culture
-		CULTURE_FLAG = dde_hre
-	}
-	always = false
+
+	always = no
 }
 
 portrait_reichskrone_trigger = {
-    always = false
+    always = no
+}
+asian_variants = {
+	always = no
 }
