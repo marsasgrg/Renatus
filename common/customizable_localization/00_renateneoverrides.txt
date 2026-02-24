@@ -1,4 +1,4 @@
-CouncilPosition = {
+﻿CouncilPosition = {
 	type = character
 	text = {
 		trigger = {
