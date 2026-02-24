@@ -2,6 +2,10 @@
 	name = "aleksandrovich"
 	culture = gravezko
 }
+simeonovich = {
+	name = "simeonovich"
+	culture = gravezko
+}
 kaganid = {
 	name = kaganid
 	culture = boz_otkenli

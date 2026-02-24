@@ -58,6 +58,38 @@
           color = { 73 246 62 }
         }
       }
+      c_eastwatch = {
+        color = { 53 246 72 }
+
+        b_eastwatch = {
+          province = 15
+          color = { 53 246 72 }
+        }
+        b_eastcoast_by_the_cape = {
+          province = 13
+          color = { 53 246 72 }
+        }
+        b_eastcoast_by_alturai = {
+          province = 14
+          color = { 53 246 72 }
+        }
+      }
+      c_wastes_of_east_renzar = {
+        color = { 53 246 62 }
+
+        b_fort_between_the_sisters = {
+          province = 16
+          color = { 53 246 62 }
+        }
+        b_deep_plains_of_eastern_renzar = {
+          province = 17
+          color = { 53 246 62 }
+        }
+        b_eastplains = {
+          province = 18
+          color = { 53 246 62 }
+        }
+      }
     }
   }
 }

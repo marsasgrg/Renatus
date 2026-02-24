@@ -25,6 +25,70 @@ renzar_boris_first = {
 	}
 }
 
+
+renzar_simeon_first = {
+	female = no
+	dynasty = simeonovich
+	religion = kalinist
+	culture = "gravezko"
+	name = "Simeon"
+	375.1.1 = {
+		birth = yes
+	}
+	435.1.1 = {
+		death = yes
+	}
+}
+
+renzar_simeon_second = {
+	female = no
+	dynasty = simeonovich
+	father = renzar_simeon_first
+	religion = kalinist
+	culture = "gravezko"
+	name = "Simeon"
+	trait = education_martial_4
+	411.1.1 = {
+		birth = yes
+	}
+	480.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = erkin
+		}
+	}
+}
+
+#NON CANON GUY FOR STORY!
+renzar_simeon_third = {
+	female = no
+	dynasty = simeonovich
+	father = renzar_simeon_second
+	religion = kalinist
+	culture = "gravezko"
+	name = "Simeon"
+	trait = education_intrigue_4
+	479.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		effect = {
+			set_relation_rival = { target = character:erkin reason = rival_historical } # Erkin, killed his father
+		}
+		effect = {
+			set_relation_rival = { target = character:renzar_aleksandr_first reason = rival_historical } # Aleksandr, the vile new "king"
+		}
+		effect = {
+			set_relation_rival = { target = character:renzar_boris_first reason = rival_historical } # Boris, replacer of the true heir
+		}
+		effect = {
+			make_claim_weak = title:k_renzar 
+		}
+	}
+	
+}
+
+
 erkin = {
 	name = "Erkin"
 	female = no

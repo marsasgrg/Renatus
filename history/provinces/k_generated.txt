@@ -31,3 +31,25 @@
 9 = {
 	holding = none
 }
+15 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+13 = {
+	holding = none
+}
+14 = {
+	holding = none
+}
+16 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+17 = {
+	holding = none
+}
+18 = {
+	holding = none
+}
