@@ -13,3 +13,18 @@ k_renzar={
 }
 
 aleksandrovich=k_renzar
+
+d_east_renzar = {
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=yellow
+	colored_emblem = {
+		texture = "ce_eagle_double.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 1.0 }  }
+	}
+}
+simeonovich=d_east_renzar
+d_west_renzar=k_renzar

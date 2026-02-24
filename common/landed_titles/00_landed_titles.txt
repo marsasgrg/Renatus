@@ -1,9 +1,50 @@
 ﻿e_delta = {
   color = { 23 166 160 }
-  capital = c_north_cape_renzar
+  capital = c_west_renzar
   k_renzar = {
     color = { 43 206 42 }
-    capital = c_north_cape_renzar
+    capital = c_west_renzar
+    
+    d_west_renzar = {
+      color = { 43 206 42 }
+      capital = c_west_renzar
+      c_west_renzar = {
+        color = { 33 206 32 }
+
+        b_west_renzar_fort = {
+          province = 19
+          color = {  33 206 32 }
+        }
+        b_west_renzar_city = {
+          province = 20
+          color = { 33 206 32 }
+        }
+        b_west_renzar_church = {
+          province = 21
+          color = { 33 206 32 }
+        }
+      }
+
+      c_westwatch = {
+        color = { 23 206 42 }
+
+        b_westwatch = {
+          province = 22
+          color = { 23 206 42 }
+        }
+        b_westpoint = {
+          province = 23
+          color = {  23 206 42 }
+        }
+        b_coast_of_the_west = {
+          province = 24
+          color = {  23 206 42}
+        }
+      }
+
+    }    
+    
+    
     d_east_renzar = {
       color = { 53 226 52 }
       capital = c_north_cape_renzar
@@ -56,6 +97,38 @@
         b_WESTCAPE3 = {
           province = 9
           color = { 73 246 62 }
+        }
+      }
+      c_eastwatch = {
+        color = { 53 246 72 }
+
+        b_eastwatch = {
+          province = 15
+          color = { 53 246 72 }
+        }
+        b_eastcoast_by_the_cape = {
+          province = 13
+          color = { 53 246 72 }
+        }
+        b_eastcoast_by_alturai = {
+          province = 14
+          color = { 53 246 72 }
+        }
+      }
+      c_wastes_of_east_renzar = {
+        color = { 53 246 62 }
+
+        b_fort_between_the_sisters = {
+          province = 16
+          color = { 53 246 62 }
+        }
+        b_deep_plains_of_eastern_renzar = {
+          province = 17
+          color = { 53 246 62 }
+        }
+        b_eastplains = {
+          province = 18
+          color = { 53 246 62 }
         }
       }
     }

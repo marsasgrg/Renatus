@@ -33,3 +33,39 @@
 12 = {
 	winter_severity_bias = 0.00
 }
+13 = {
+	winter_severity_bias = 0.00
+}
+14 = {
+	winter_severity_bias = 0.00
+}
+15 = {
+	winter_severity_bias = 0.00
+}
+16 = {
+	winter_severity_bias = 0.00
+}
+17 = {
+	winter_severity_bias = 0.00
+}
+18 = {
+	winter_severity_bias = 0.00
+}
+19 = {
+	winter_severity_bias = 0.00
+}
+20 = {
+	winter_severity_bias = 0.00
+}
+21 = {
+	winter_severity_bias = 0.00
+}
+22 = {
+	winter_severity_bias = 0.00
+}
+23 = {
+	winter_severity_bias = 0.00
+}
+24 = {
+	winter_severity_bias = 0.00
+}
