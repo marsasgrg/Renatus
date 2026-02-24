@@ -19,7 +19,7 @@
 		religion = kalinist 
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = renzar_boris_first
-		position = { 240 400 }
+		position = { 500 120 }
 		
 		animation = war_over_win
 	}
@@ -36,7 +36,7 @@
 		religion = kalinist 
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = renzar_simeon_third
-		position = { 540 400 }
+		position = { 800 150 }
 		
 		animation = personality_dishonorable
 	}

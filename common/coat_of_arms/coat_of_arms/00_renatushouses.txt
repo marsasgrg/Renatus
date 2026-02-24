@@ -27,3 +27,4 @@ d_east_renzar = {
 	}
 }
 simeonovich=d_east_renzar
+d_west_renzar=k_renzar

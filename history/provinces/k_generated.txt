@@ -53,3 +53,25 @@
 18 = {
 	holding = none
 }
+19 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+20 = {
+	holding = city_holding
+}
+21 = {
+	holding = church_holding
+}
+22 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+23 = {
+	holding = city_holding
+}
+24 = {
+	holding = church_holding
+}
