@@ -4,3 +4,6 @@
 	WORLD_EXTENTS_Z = 4607
 	WATERLEVEL = 3 ### 0.06 in 0-1, 19 in 0-255, use 11% HSB in Photoshop
 }
+NGAME = {
+	END_DATE = "9999.12.31"
+}
