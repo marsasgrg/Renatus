@@ -93,6 +93,7 @@ erkin = {
 	name = "Erkin"
 	female = no
 	dynasty_house = erkinid
+	dna = erkin_dna
 	culture = boz_otkenli
 	religion = kizil_gok_yol
 	trait = bastard_founder
@@ -106,6 +107,29 @@ erkin = {
 	417.9.11 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
+	}
+	481.9.12 = {
+
+		effect = {
+			character:yaruk = {
+				set_real_father = character:erkin
+			}
+			add_secret = {
+				type = secret_unmarried_illegitimate_child
+				target = character:yaruk
+			}
+			random_secret = {
+				limit = {
+					secret_target = character:yaruk
+				}
+				save_scope_as = new_secret				
+			}
+			scope:new_secret = {
+				reveal_to = character:yaruk
+			}
+		}
+	
+
 	}
 }
 
@@ -121,5 +145,56 @@ erdeniz = {
 	}
 	519.6.7 = {
 		death = yes
+	}
+}
+
+yaruk = {
+	name = "Yaruk"
+	female = no
+	dynasty_house = yarukid
+	dna = yarukh_dna
+
+	# SPOILER, IGNORE!
+	mother = ay_chechek
+
+	culture = boz_otkenli
+	religion = kizil_gok_yol
+	trait = education_diplomacy_5
+	trait = beauty_good_3
+	trait = fecund
+	trait = physique_good_1
+	trait = legitimized_bastard
+	481.9.11 = {
+		birth = yes
+	}
+	498.1.1 = {
+		effect = {
+
+			set_relation_best_friend = { target = character:erkin reason = best_friend_counsel_and_support }  #This lad is shaping up to be quite a cool politician!
+		}
+	}
+
+}
+ay_chechek = {
+	name = "Ay-Chechek"
+	female = yes
+	dynasty = kaganid
+	religion = gok_yol
+	trait = beauty_good_3
+	trait = fecund
+	442.1.1 = {
+		birth = yes
+	}
+	461.1.1 = {
+		# Erkin splits the Kagan of Alturai
+		effect = {
+			set_relation_lover = { target = character:erkin reason = lover_dueled_for_love  }
+		}
+	}
+
+	481.9.11 = {
+		death = {
+			death_reason = death_childbirth
+		}
 	}
 }

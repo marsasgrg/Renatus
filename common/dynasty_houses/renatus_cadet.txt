@@ -2,3 +2,7 @@
 	name = erkinid
 	dynasty = kaganid
 }
+yarukid = {
+	name = yarukid
+	dynasty = kaganid
+}
