@@ -636,26 +636,7 @@ idle = {
 ##########################################################################################################################################################################################
 ##########################################################################################################################################################################################
 
-		japanese_knight_1 = {
-			animation = { head = "hasso_no_kamae" torso = "hasso_no_kamae" }
-			portrait_modifier_pack = long_swords
-			weight = {
-				base = 0
-				modifier = {
-					add = 100
-					culture = { has_cultural_pillar = heritage_japonic }
-					portrait_wear_armor_currently_in_army_trigger = yes
-					OR = {
-						is_ai = no
-						static_group_filter = {
-							group = japanese_pose
-							match = 0.25
-						}
-					}
-					NOT = { has_trait = pregnant }
-				}
-			}
-		}
+		
 
 		AI_honorable_asia = {
 			animation = { head = "AI_honorable_asia" torso = "AI_honorable_asia" }
@@ -5973,22 +5954,7 @@ crowning = { #ACH DLC
 dancing = {
 	default = {
 		default = { head = "dancing_loop" torso = "dancing_loop" }
-		kagura_dance = {
-			animation = { head = kagura_dance torso = kagura_dance }
-			weight = {
-				base = 0
-				modifier = {
-					add = 100
-					culture = {
-						has_cultural_pillar = heritage_japonic
-					}
-				}
-			}
-			portrait_modifier = {
-				animations_props = tgp_suzu
-				animations = female_prop_fix_additive
-			}
-		}
+		
 		portrait_modifier = {
 			animations = dwarf_additive
 			animations = fat_additive
@@ -7020,36 +6986,6 @@ sword_yield_start = {
 			portrait_modifier_pack = long_swords
 		}
 
-		sword_yield_pregnant_fat_dwarf = {
-			animation = { head = "misc_pregnant_entry" torso = "misc_pregnantFatDwarf_entry" }
-			weight = {
-				base = 0
-				modifier = {
-					add = 100
-					NOT = {
-						culture = { has_cultural_pillar = heritage_japonic }
-					}
-					scope:current_weight >= 60
-					portrait_has_trait_trigger = { TRAIT = pregnant }
-					portrait_has_trait_trigger = { TRAIT = dwarf }
-				}
-			}
-		}
-
-		longsword_yield_pregnant_fat_dwarf = {
-			animation = { head = "misc_pregnant_entry" torso = "misc_pregnantFatDwarf_entry" }
-			weight = {
-				base = 0
-				modifier = {
-					add = 100
-					culture = { has_cultural_pillar = heritage_japonic }
-					scope:current_weight >= 60
-					portrait_has_trait_trigger = { TRAIT = pregnant }
-					portrait_has_trait_trigger = { TRAIT = dwarf }
-				}
-			}
-			portrait_modifier_pack = long_swords
-		}
 	}
 }
 

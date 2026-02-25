@@ -105,6 +105,7 @@ erkin = {
 	trait = physique_good_3
 	417.9.11 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 
