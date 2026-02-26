@@ -14,3 +14,21 @@ renzarene_tsaritsa = {
 	titles = { k_renzar }
 
 }
+boz_otkenli_high_kagan = {
+	type = character
+	gender = male
+	special = holder
+	priority = 100
+	titles = { e_boz_otkenli_horde }
+
+}
+boz_otkenli_tegin = {
+	type = character
+	gender = male
+	special = ruler_child
+	priority = 41
+	titles = { e_boz_otkenli_horde }
+ 	flavourization_rules = { 
+		top_liege = no
+	}
+}
