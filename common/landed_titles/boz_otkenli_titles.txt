@@ -10,3 +10,20 @@
 
 
 }
+
+
+
+
+d_laamp_gok_boru = { # Ki Hwon, Hidden Valley Banner
+	color = { 100 100 100 }
+
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	
+}
