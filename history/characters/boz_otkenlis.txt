@@ -72,7 +72,7 @@ yaruk = {
 	trait = beauty_good_3
 	trait = fecund
 	trait = physique_good_1
-	trait = legitimized_bastard
+	trait = bastard_founder
 	481.9.11 = {
 		birth = yes
 	}
