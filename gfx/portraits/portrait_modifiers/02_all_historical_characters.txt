@@ -1,4 +1,9 @@
-renatus_modifier = {
+historical_characters_accessories = {
+
+	usage = game
+	selection_behavior = max
+	priority = 2
+
 	yaruk = { 
 		dna_modifiers = {
 			accessory = {
