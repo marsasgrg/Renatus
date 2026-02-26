@@ -28,3 +28,17 @@ d_east_renzar = {
 }
 simeonovich=d_east_renzar
 d_west_renzar=k_renzar
+
+kaganid = {
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=red
+		texture="ce_per_bend.dds"
+	}
+
+}
+d_laamp_gok_boru = kaganid
+e_boz_otkenli_horde = kaganid

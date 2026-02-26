@@ -17,7 +17,7 @@
 d_laamp_gok_boru = { # Ki Hwon, Hidden Valley Banner
 	color = { 100 100 100 }
 
-
+    capital = c_west_renzar
 	definite_form = yes
 	landless = yes
 	require_landless = yes

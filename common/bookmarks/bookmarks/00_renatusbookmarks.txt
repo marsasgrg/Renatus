@@ -40,21 +40,21 @@
 		
 		animation = personality_dishonorable
 	}
-	# character = {
-	# 	name = "bookmark_erdeniz"
-	# 	dynasty = kaganid
-	# 	dynasty_splendor_level = 1
-	# 	type = male
-	# 	birth = 479.1.1
-	# 	title = d_east_renzar
-	# 	government = feudal_government
-	# 	culture = gravezko
-	# 	religion = kalinist 
-	# 	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-	# 	history_id = renzar_simeon_third
-	# 	position = { 800 150 }
+	character = {
+		name = "bookmark_erdeniz"
+	 	dynasty = kaganid
+	 	dynasty_splendor_level = 1
+	 	type = male
+	 	birth = 394.1.1
+	 	title = d_laamp_gok_boru
+	 	government = landless_adventurer_government
+	 	culture = boz_otkenli
+	 	religion =  gok_yol
+	 	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = erdenzy
+	 	position = { 250 350 }
 		
-	# 	animation = personality_dishonorable
-	# }
+		animation = personality_bold
+	}
 
 }
