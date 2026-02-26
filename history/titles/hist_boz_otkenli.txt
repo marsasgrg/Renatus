@@ -1,0 +1,15 @@
+e_boz_otkenli_horde = {
+	365.1.1 = {
+		holder = ata_kagan
+	}
+	402.4.7 = {
+		holder = tugrul_khan
+	}
+    407.7.4 = {
+        holder = erdeniz
+    }
+    439.1.1 = {
+        holder = 0
+    }
+
+}

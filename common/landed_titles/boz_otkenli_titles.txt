@@ -1,0 +1,12 @@
+﻿e_boz_otkenli_horde = {
+	color = { 245 90 50 }
+	can_use_nomadic_naming = no
+
+	definite_form = yes
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+
+}
