@@ -1,4 +1,4 @@
-historical_characters_accessories = {
+﻿historical_characters_accessories = {
 
 	usage = game
 	selection_behavior = max
@@ -28,13 +28,13 @@ historical_characters_accessories = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 999
+				add = 100000
 				exists = this
 				exists = character:yaruk
 				this = character:yaruk
 			}
 			modifier = {
-				add = 999
+				add = 100000
 				exists = this
 				exists = character:yaruk
 				this = character:yaruk
