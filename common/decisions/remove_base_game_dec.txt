@@ -1,0 +1,86 @@
+﻿secure_mediterranean_decision = {
+	title = fp2_secure_mediterranean.t
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/fp1_ocean.dds"
+	}
+	desc = fp2_secure_mediterranean.desc
+	decision_group_type = major
+
+	selection_tooltip = fp2_secure_mediterranean.tip
+	sort_order = 50
+
+	is_shown = {
+		# DLC check
+		has_fp2_dlc_trigger = yes
+        always = no
+	}
+
+	is_valid = {
+        always = no
+	}
+	
+	is_valid_showing_failures_only = {
+		is_landed = yes
+	}
+
+	effect = {
+
+	}
+
+	cost = {
+		gold = {
+			value = 0
+			if = {
+				limit = {
+					has_treasury = no
+				}
+				add = major_gold_value
+				multiply = 1.5
+				round = yes
+			}
+		}
+		treasury = {
+			value = 0
+			if = {
+				limit = {
+					has_treasury = yes
+				}
+				add = major_gold_value
+				multiply = 1.5
+				round = yes
+			}
+		}
+		prestige = {
+			value = major_prestige_gain
+			multiply = 3
+			round = yes
+		}
+	}
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 730
+		empire = 730
+		hegemony = 730
+	}
+
+	ai_potential = {
+		is_ruler = yes
+		short_term_gold >= {
+			value = major_gold_value
+			multiply = 1.5
+			round = yes
+		}
+		prestige >= {
+			value = major_prestige_gain
+			multiply = 3
+			round = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 80
+	}
+}

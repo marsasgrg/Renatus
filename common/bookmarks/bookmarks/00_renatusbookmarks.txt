@@ -40,5 +40,21 @@
 		
 		animation = personality_dishonorable
 	}
+	character = {
+		name = "bookmark_erdeniz"
+	 	dynasty = kaganid
+	 	dynasty_splendor_level = 1
+	 	type = male
+	 	birth = 394.1.1
+	 	title = d_laamp_gok_boru
+	 	government = landless_adventurer_government
+	 	culture = boz_otkenli
+	 	religion =  gok_yol
+	 	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = erdenzy
+	 	position = { 250 350 }
+		
+		animation = personality_bold
+	}
 
 }

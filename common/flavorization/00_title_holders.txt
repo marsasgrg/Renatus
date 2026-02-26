@@ -197,41 +197,6 @@ duchy_feudal = {
 	governments = { feudal_government }
 	priority = 27
 }
-# Independent dukes of certain culture groups are known as Petty Kings instead of Dukes
-duke_feudal_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 27
-	governments = { feudal_government }
-	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
-	flavourization_rules = { 
-		only_independent = yes
-	}
-}
-duke_feudal_independent_female = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 27
-	governments = { feudal_government }
-	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
-	flavourization_rules = { 
-		only_independent = yes
-	}
-}
-duchy_feudal_independent = {
-	type = title
-	tier = duchy
-	governments = { feudal_government }
-	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
-	priority = 28
-	flavourization_rules = { 
-		only_independent = yes
-	}
-}
 king_feudal_male = {
 	type = character
 	gender = male
@@ -1333,77 +1298,6 @@ empire = {
 
 ### ADMINISTRATIVE
 
-baron_administrative_male_byzantine_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 28
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-	
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
-		spouse_takes_title = no
-	}
-}
-baron_administrative_female_byzantine_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 28
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-	
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
-		spouse_takes_title = no
-	}
-}
-count_administrative_male_byzantine_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 28
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-	
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
-		spouse_takes_title = no
-	}
-}
-count_administrative_female_byzantine_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 28
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-	
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
-		spouse_takes_title = no
-	}
-}
-county_administrative_byzantine_group = {
-	type = title
-	tier = county
-	priority = 51
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
-	}
-}
 
 
 count_administrative_male = {
@@ -1487,38 +1381,6 @@ spouse_administrative_female = {
 	}
 }
 
-
-
-duke_administrative_male_byzantine_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 29
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
-		spouse_takes_title = no
-	}
-}
-duke_administrative_female_byzantine_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 29
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
-		spouse_takes_title = no
-	}
-}
 king_administrative_male = {
 	type = character
 	gender = male
@@ -1548,36 +1410,7 @@ king_administrative_female = {
 		only_vassals = yes
 	}
 }
-king_administrative_male_byzantine_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 75
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
 
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
-		spouse_takes_title = no
-	}
-}
-king_administrative_female_byzantine_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 75
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
-		spouse_takes_title = no
-	}
-}
 king_administrative_male_roman = {
 	type = character
 	gender = male
@@ -1632,32 +1465,6 @@ king_administrative_independent_female = {
 		only_independent = yes
 	}
 }
-king_administrative_independent_male_byzantine_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 107
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-
-	flavourization_rules = {
-		only_independent = yes
-	}
-}
-king_administrative_independent_female_byzantine_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 107
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-	
-	flavourization_rules = {
-		only_independent = yes
-	}
-}
 king_administrative_independent_male_roman = {
 	type = character
 	gender = male
@@ -1685,36 +1492,6 @@ king_administrative_independent_female_roman = {
 	}
 }
 
-emperor_administrative_vassal_male_byzantine_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = empire
-	priority = 102
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
-		only_vassals = yes
-	}
-}
-emperor_administrative_vassal_female_byzantine_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 102
-	governments = { administrative_government }
-	heritages = { heritage_byzantine }
-
-	flavourization_rules = {
-		top_liege = yes
-		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
-		only_vassals = yes
-	}
-}
 emperor_administrative_vassal_male_roman = {
 	type = character
 	gender = male

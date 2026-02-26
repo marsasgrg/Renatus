@@ -1,0 +1,16 @@
+﻿on_game_start_after_lobby = {
+    effect = {
+        if = {
+            limit = { has_ep3_dlc_trigger = yes }
+            character:erdeniz ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						has_government = landless_adventurer_government
+					}
+					add_realm_law_skip_effects = camp_purpose_mercenaries
+				}
+            } 
+        }
+    }
+}
