@@ -1,0 +1,1 @@
+ce_erkinid.dds = { colors = 3 category = animals }
