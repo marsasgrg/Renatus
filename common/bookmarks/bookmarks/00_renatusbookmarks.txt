@@ -51,7 +51,7 @@
 	 	culture = boz_otkenli
 	 	religion =  gok_yol
 	 	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = erdenzy
+		history_id = erdeniz
 	 	position = { 250 350 }
 		
 		animation = personality_bold
