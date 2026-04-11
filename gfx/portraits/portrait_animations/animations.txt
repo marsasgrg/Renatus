@@ -163,7 +163,7 @@ idle = {
 					add = 1000
 					government_has_flag = government_is_mandala
 					house.house_head ?= this
-					house = { has_house_power_parameter = aspect_of_serenity }
+					house = { has_house_aspiration_parameter = aspect_of_serenity }
 					has_mandala_aspect_2_or_higher_trigger = yes
 					trigger_if = {
 						limit = {
@@ -191,7 +191,7 @@ idle = {
 					add = 1000
 					government_has_flag = government_is_mandala
 					house.house_head ?= this
-					house = { has_house_power_parameter = aspect_of_destruction }
+					house = { has_house_aspiration_parameter = aspect_of_destruction }
 					has_mandala_aspect_2_or_higher_trigger = yes
 					trigger_if = {
 						limit = {
@@ -219,7 +219,7 @@ idle = {
 					add = 1000
 					government_has_flag = government_is_mandala
 					house.house_head ?= this
-					house = { has_house_power_parameter = aspect_of_trickery }
+					house = { has_house_aspiration_parameter = aspect_of_trickery }
 					has_mandala_aspect_2_or_higher_trigger = yes
 					trigger_if = {
 						limit = {
@@ -246,7 +246,7 @@ idle = {
 					add = 1000
 					government_has_flag = government_is_mandala
 					house.house_head ?= this
-					house = { has_house_power_parameter = aspect_of_creation }
+					house = { has_house_aspiration_parameter = aspect_of_creation }
 					has_mandala_aspect_2_or_higher_trigger = yes
 					trigger_if = {
 						limit = {
