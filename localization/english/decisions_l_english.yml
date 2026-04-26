@@ -1,0 +1,9 @@
+﻿l_english:
+  legitimize_kaganid_bastards: "Legitimize Kaganid Bastards"
+  legitimize_kaganid_bastards_confirm: "We need them!"
+  legitimize_kaganid_bastards_tooltip: "Perhaps we should grant them inheritance rights?"
+  legitimize_kaganid_bastards_desc: "The Kaganid Dynasty is rapidly decaying. They have fallen out of control of nearly all their realms. We must grant everybody, even the illegitimate children, rights to inherit."
+  reveal_and_legitimise_yaruk: "Reveal the True Parentage of [GetScriptedCharacterByHistoryID('yaruk').GetFirstName]"
+  reveal_and_legitimise_yaruk_desc: "[GetScriptedCharacterByHistoryID('yaruk').GetFirstName] is a way more competent heir than [GetScriptedCharacterByHistoryID('batir_son_of_erkin').GetFirstName]. I must reveal his parentage and make him the legitimate successor."
+  reveal_and_legitimise_yaruk_tooltip: "Should [GetScriptedCharacterByHistoryID('yaruk').GetFirstName] be known as my son?"
+  reveal_and_legitimise_yaruk_confirm: "This secret must be revealed!"

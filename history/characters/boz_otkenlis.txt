@@ -306,7 +306,7 @@ batir_son_of_erkin = {
 	trait = education_martial_3
 	trait = strong
 	trait = physique_good_3
-	467.6.7 = {
+	483.6.7 = {
 		birth = yes
 	}
 	551.1.2 = {
