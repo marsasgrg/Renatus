@@ -1,0 +1,18 @@
+﻿dubnius = {
+	name = "Dubnius"
+	female = no
+	dynasty = diviciacus
+	
+
+	culture = dubuonian
+	religion = kizil_gok_yol
+	trait = education_diplomacy_5
+	trait = beauty_good_3
+    trait = gregarious
+    trait = deceitful
+    trait = generous
+    trait = diligent
+	588.5.18 = {
+		birth = yes
+	}
+}

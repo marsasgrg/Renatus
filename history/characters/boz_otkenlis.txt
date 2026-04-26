@@ -41,6 +41,9 @@
 	
 
 	}
+	579.6.7 = {
+		death = yes
+	}
 }
 
 erdeniz = {
@@ -85,6 +88,10 @@ yaruk = {
 
 			set_relation_best_friend = { target = character:erkin reason = best_friend_counsel_and_support }  #This lad is shaping up to be quite a cool politician!
 		}
+	}
+
+	578.4.20 = {
+		death = yes
 	}
 
 }
@@ -162,7 +169,7 @@ ata_kagan = { # Father of the Boz-Otkenli Tugrul and Batir
 	}
 }
 
-batir = { # Second son of Ata
+batir_son_of_ata = { # Second son of Ata
     name = "Batir"
 	female = no
 	dynasty = kaganid
@@ -184,7 +191,7 @@ bayan = { # Bayan of Alturai
     name = "Bayan"
 	female = no
 	dynasty = kaganid
-    father = batir
+    father = batir_son_of_ata
 	culture = boz_otkenli
 	religion = gok_yol
 	trait = education_martial_4
@@ -208,7 +215,7 @@ neslihan = {
     name = "Neslihan"
     female = yes
     dynasty = kaganid
-    father = batir
+    father = batir_son_of_ata
     culture = boz_otkenli
 	religion = gok_yol
     trait = physique_good_3
@@ -238,3 +245,141 @@ yabiz = { # Yabiz of Tokresh
 	}
 
 }
+
+comara = {
+	name = "Comara"
+	female = yes
+	dynasty_house = yarukid
+	
+
+	father = yaruk
+	# TODO! ADD DUBUONI VILLAGE PRINCESS as mother
+
+	culture = boz_otkenli
+	religion = kizil_gok_yol
+	trait = education_stewardship_4
+	trait = gregarious
+	trait = beauty_good_1
+	trait = physique_good_1
+	trait = twin
+	532.1.1 = {
+		birth = yes
+	}
+	615.6.5 = {
+		death = yes
+	}
+}
+
+caticorix = {
+	name = "Caticorix"
+	female = no
+	dynasty_house = yarukid
+	
+
+	father = yaruk
+	# TODO! ADD DUBUONI VILLAGE PRINCESS as mother
+
+	culture = boz_otkenli
+	religion = kizil_gok_yol
+	trait = education_martial_3
+	trait = brave
+	trait = physique_good_3
+	trait = twin
+	532.1.1 = {
+		birth = yes
+	}
+	638.6.5 = { # Died of a stroke upon hearing that peace was preffered rather than conquest of the Dubuoni South
+		death = yes
+	}
+}
+
+
+# the batir inflation
+batir_son_of_erkin = {
+	name = "Batir"
+	female = no
+	dynasty_house = erkinid
+	father = erkin
+	culture = boz_otkenli
+	religion = kizil_gok_yol
+
+	trait = education_martial_3
+	trait = strong
+	trait = physique_good_3
+	467.6.7 = {
+		birth = yes
+	}
+	551.1.2 = {
+		death = yes
+	}
+}
+
+batir_son_of_batir_son_of_erkin = {
+	name = "Batir"
+	female = no
+	dynasty_house = erkinid
+	father = batir_son_of_erkin
+	culture = boz_otkenli
+	religion = kizil_gok_yol
+
+	trait = education_martial_4
+	trait = intellect_good_1
+	trait = strong
+	trait = physique_good_3
+	518.3.25 = {
+		birth = yes
+	}
+	591.6.3 = {
+		death = yes
+	}
+}
+batir_son_of_erdeniz = {
+	name = "Batir"
+	female = no
+	dynasty = kaganid
+    father = erdeniz
+	culture = boz_otkenli
+	religion = gok_yol
+	trait = education_martial_4
+	trait = physique_good_2
+	455.2.1 = {
+		birth = yes
+	}
+	531.6.9 = {
+		death = yes
+	}
+}
+batir_son_of_batir_son_of_erdeniz = {
+	name = "Batir"
+	female = no
+	dynasty = kaganid
+    father = batir_son_of_erdeniz
+	culture = boz_otkenli
+	religion = gok_yol
+	trait = education_martial_3
+	trait = physique_good_1
+	494.4.3 = {
+		birth = yes
+	}
+	566.7.9 = {
+		death = yes
+	}
+}
+
+batir_third_in_erdenizid_line = {
+	name = "Batir"
+	female = no
+	dynasty = kaganid
+    father = batir_son_of_batir_son_of_erdeniz
+	culture = boz_otkenli
+	religion = gok_yol
+	trait = education_martial_2
+
+	526.6.2 = {
+		birth = yes
+	}
+	610.6.9 = {
+		death = yes
+	}
+}
+# batir inflation ended

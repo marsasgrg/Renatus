@@ -16,3 +16,12 @@ heritage_otyken = {
 	}
 	audio_parameter = european
 }
+heritage_east_elvish = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_otyken
+		}
+	}
+	audio_parameter = european
+}
