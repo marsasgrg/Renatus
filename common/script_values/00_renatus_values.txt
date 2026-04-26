@@ -1,0 +1,3 @@
+﻿dynasty_member_count = {
+  every_dynasty_member = {add = 1}
+}

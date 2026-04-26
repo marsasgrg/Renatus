@@ -10,3 +10,7 @@ kaganid = {
 	name = kaganid
 	culture = boz_otkenli
 }
+diviciacus = {
+	name = diviciacus
+	culture = dubuonian
+}

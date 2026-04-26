@@ -33,3 +33,20 @@ language_boz_otkenli = {
 	
 	color = turkish
 }
+language_dubuonian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_dubuonian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_dubuonian }
+			multiply = 10
+		}
+	}
+	
+	color =  hsv { 0.72 0.6 0.76 }
+}
