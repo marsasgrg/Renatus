@@ -11,3 +11,9 @@ This will soon be on Steam, however before that you can only download this from 
 1. Copy descriptor.mod into the Crusader Kings III/mod/ folder
 1. At the end of the copied descriptor.mod, add `path = "(your CK3 folder)/mod/Renatus"`
 1. The mod should now be accessible through the Paradox Launcher
+1. Create a playset with the mod, and use it to launch the game
+
+# Current Features:
+- Playable Renzar
+- Playable adventurer Erdeniz Kagan
+- Kaganid House
