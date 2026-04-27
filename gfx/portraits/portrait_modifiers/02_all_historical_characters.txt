@@ -18,12 +18,6 @@
 				template = no_beard
 				value = 0.11 # Please replace with accessory = accessory_name
 			}
-			accessory = {
-				mode = add
-				gene = headgear
-				template = western_wedding
-				accessory = m_headgear_spec_ep2_western_wedding
-			}
 		}   
 		weight = {
 			base = 0
@@ -38,6 +32,33 @@
 				exists = this
 				exists = character:yaruk
 				this = character:yaruk
+			}
+		}
+	}
+	yarukFlowerCrown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_wedding
+				accessory = m_headgear_spec_ep2_western_wedding
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 100000
+				exists = this
+				exists = character:yaruk
+				this = character:yaruk
+				has_dlc_feature = tours_and_tournaments
+			}
+			modifier = {
+				add = 100000
+				exists = this
+				exists = character:yaruk
+				this = character:yaruk
+				has_dlc_feature = tours_and_tournaments
 			}
 		}
 	}
