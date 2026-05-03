@@ -18,7 +18,7 @@
 	}
 
 	is_shown = {
-		is_landless_adventurer = yes
+		#is_landless_adventurer = yes
 		dynasty = dynasty:kaganid
         dynasty:kaganid = {
             dynast = root
