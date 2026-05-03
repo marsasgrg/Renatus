@@ -25,3 +25,4 @@ default_coastal_sea=coastal_sea
 22=plains
 23=plains
 24=plains
+25=plains

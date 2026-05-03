@@ -75,3 +75,8 @@
 24 = {
 	holding = church_holding
 }
+25 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}

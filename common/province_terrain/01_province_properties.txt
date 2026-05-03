@@ -69,3 +69,6 @@
 24 = {
 	winter_severity_bias = 0.00
 }
+25 = {
+	winter_severity_bias = 0.00
+}

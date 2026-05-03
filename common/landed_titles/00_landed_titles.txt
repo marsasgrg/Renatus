@@ -133,4 +133,20 @@
       }
     }
   }
+  k_symphonia = {
+      color = {196 111 102}
+      capital = c_symphonian_coast
+      d_north_symphonia = {
+          color = { 196 111 102 }
+          capital = c_symphonian_coast
+
+          c_symphonian_coast = {
+              color = { 196 111 102 }
+              b_symphonian_coast = {
+                province = 25
+                color = { 196 111 102 }
+              }
+          }
+      }
+  }
 }
