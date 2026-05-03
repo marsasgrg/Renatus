@@ -1,6 +1,7 @@
 ﻿vladius_lenorius = {
 	name = "Vladius"
 	female = no
+    dna = lenorius_dna
 	dynasty = lenorius
 	religion = kalinist
 	trait = education_diplomacy_3
