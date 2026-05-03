@@ -1,0 +1,25 @@
+﻿k_symphonia = {
+	400.1.1 = {
+		holder = anoporoko
+	}
+    476.1.1 = {
+        holder = vladius_lenorius
+    }
+
+}
+d_north_symphonia = {
+	400.1.1 = {
+		holder = anoporoko
+	}
+    476.1.1 = {
+        holder = vladius_lenorius
+    }
+}
+c_symphonian_coast = {
+	400.1.1 = {
+		holder = anoporoko
+	}
+    476.1.1 = {
+        holder = vladius_lenorius
+    }
+}

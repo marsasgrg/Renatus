@@ -1,0 +1,28 @@
+﻿vladius_lenorius = {
+	name = "Vladius"
+	female = no
+	dynasty = lenorius
+	religion = kalinist
+	trait = education_diplomacy_3
+	culture = "gravezko"
+	453.11.11 = {
+		birth = yes
+	}
+    522.11.10 = {
+        death = yes
+    }
+}
+anoporoko = {
+	name = "Anoporoko"
+	female = no
+	dynasty = anoporoko
+	religion = kalinist
+	trait = education_diplomacy_2
+	culture = "gravezko"
+	393.11.9 = {
+		birth = yes
+	}
+    476.1.1 = {
+        death = yes
+    }
+}

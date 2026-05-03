@@ -14,3 +14,11 @@ diviciacus = {
 	name = diviciacus
 	culture = dubuonian
 }
+anoporoko = {
+	name = anoporoko
+	culture = gravezko	
+}
+lenorius = {
+	name = lenorius
+	culture = gravezko
+}
