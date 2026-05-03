@@ -1,0 +1,11 @@
+﻿##### d_northern_symphonia ############################
+
+### c_symphonian_coast
+# SYMPHONIANCOAST
+25 = {
+	holding = castle_holding
+	culture = gravezko
+	religion = kalinist
+}
+
+

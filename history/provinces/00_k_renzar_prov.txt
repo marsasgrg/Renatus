@@ -1,0 +1,123 @@
+﻿##### d_west_renzar ############################
+
+### c_west_renzar
+# EASTRENZAR
+19 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+# EASTRENZAR2
+20 = {
+	holding = city_holding
+}
+# EASTRENZAR3
+21 = {
+	holding = church_holding
+}
+
+
+### c_westwatch
+# SOUTHWATCH
+22 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+# WESTPOINT
+23 = {
+	holding = city_holding
+}
+# COASTOFTHEWEST
+24 = {
+	holding = church_holding
+}
+
+
+##### d_east_renzar ############################
+
+### c_north_cape_renzar
+# NORTHCAPE1
+1 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+# NORTHCAPE2
+2 = {
+	holding = city_holding
+}
+# NORTHCAPE3
+3 = {
+	holding = church_holding
+}
+
+
+### c_east_cape_renzar
+# EASTCAPE1
+4 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+# EASTCAPE2
+5 = {
+	holding = none
+}
+# EASTCAPE3
+6 = {
+	holding = none
+}
+
+
+### c_west_cape_renzar
+# WESTCAPE1
+7 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+# WESTCAPE2
+8 = {
+	holding = none
+}
+# WESTCAPE3
+9 = {
+	holding = none
+}
+
+
+### c_eastwatch
+# EASTWATCH
+15 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+# EASTWATCH2
+13 = {
+	holding = none
+}
+# EASTWATCH3
+14 = {
+	holding = none
+}
+
+
+### c_wastes_of_east_renzar
+# INTERSORORIAL
+16 = {
+	culture = gravezko
+	religion = kalinist
+	holding = castle_holding
+}
+# INTERSORORIAL2
+17 = {
+	holding = none
+}
+# INTERSORORIAL3
+18 = {
+	holding = none
+}
+
+
