@@ -1,177 +1,136 @@
 ﻿e_delta = {
-	color = { 23 166 160 }
-	capital = c_west_renzar
+  color = { 23 166 160 }
+  capital = c_west_renzar
+  k_renzar = {
+    color = { 43 206 42 }
+    capital = c_west_renzar
+    
+    d_west_renzar = {
+      color = { 43 206 42 }
+      capital = c_west_renzar
+      c_west_renzar = {
+        color = { 33 206 32 }
 
-	k_uzitia = {
-		color = { 255 177 0 }
-		capital = c_west_renzar
-	}
+        b_west_renzar_fort = {
+          province = 19
+          color = {  33 206 32 }
+        }
+        b_west_renzar_city = {
+          province = 20
+          color = { 33 206 32 }
+        }
+        b_west_renzar_church = {
+          province = 21
+          color = { 33 206 32 }
+        }
+      }
 
-	k_renzar = {
-		color = { 84 206 83 }
-		capital = c_west_renzar
+      c_westwatch = {
+        color = { 23 206 42 }
 
-		d_west_renzar = {
-			color = { 43 206 42 }
-			capital = c_west_renzar
+        b_westwatch = {
+          province = 22
+          color = { 23 206 42 }
+        }
+        b_westpoint = {
+          province = 23
+          color = {  23 206 42 }
+        }
+        b_coast_of_the_west = {
+          province = 24
+          color = {  23 206 42}
+        }
+      }
 
-			c_west_renzar = {
-				color = { 33 206 32 }
+    }    
+    
+    
+    d_east_renzar = {
+      color = { 53 226 52 }
+      capital = c_north_cape_renzar
 
-				b_west_renzar_fort = {
-					color = { 33 206 32 }
-					province = 19
-				}
+      c_north_cape_renzar = {
+        color = { 63 246 62 }
 
-				b_west_renzar_city = {
-					color = { 33 206 32 }
-					province = 20
-				}
+        b_north_cape_renzar = {
+          province = 1
+          color = { 63 246 62 }
+        }
+        b_NORTHCAPE2 = {
+          province = 2
+          color = { 63 246 62 }
+        }
+        b_NORTHCAPE3 = {
+          province = 3
+          color = { 63 246 62 }
+        }
+      }
 
-				b_west_renzar_church = {
-					color = { 33 206 32 }
-					province = 21
-				}
-			}
+      c_east_cape_renzar = {
+        color = { 63 246 72 }
 
-			c_westwatch = {
-				color = { 23 206 42 }
+        b_EASTCAPE1 = {
+          province = 4
+          color = { 63 246 72 }
+        }
+        b_EASTCAPE2 = {
+          province = 5
+          color = { 63 246 72 }
+        }
+        b_EASTCAPE3 = {
+          province = 6
+          color = { 63 246 72 }
+        }
+      }
 
-				b_westwatch = {
-					color = { 23 206 42 }
-					province = 22
-				}
+      c_west_cape_renzar = {
+        
+        color = { 73 246 62 }
+        b_WESTCAPE1 = {
+          province = 7
+          color = { 73 246 62 }
+        }
+        b_WESTCAPE2 = {
+          province = 8
+          color = { 73 246 62 }
+        }
+        b_WESTCAPE3 = {
+          province = 9
+          color = { 73 246 62 }
+        }
+      }
+      c_eastwatch = {
+        color = { 53 246 72 }
 
-				b_westpoint = {
-					color = { 23 206 42 }
-					province = 23
-				}
+        b_eastwatch = {
+          province = 15
+          color = { 53 246 72 }
+        }
+        b_eastcoast_by_the_cape = {
+          province = 13
+          color = { 53 246 72 }
+        }
+        b_eastcoast_by_alturai = {
+          province = 14
+          color = { 53 246 72 }
+        }
+      }
+      c_wastes_of_east_renzar = {
+        color = { 53 246 62 }
 
-				b_coast_of_the_west = {
-					color = { 23 206 42 }
-					province = 24
-				}
-			}
-		}
-
-		d_east_renzar = {
-			color = { 53 226 52 }
-			capital = c_north_cape_renzar
-
-			c_north_cape_renzar = {
-				color = { 63 246 62 }
-
-				b_north_cape_renzar = {
-					color = { 63 246 62 }
-					province = 1
-				}
-
-				b_NORTHCAPE2 = {
-					color = { 63 246 62 }
-					province = 2
-				}
-
-				b_NORTHCAPE3 = {
-					color = { 63 246 62 }
-					province = 3
-				}
-			}
-
-			c_east_cape_renzar = {
-				color = { 63 246 72 }
-
-				b_EASTCAPE1 = {
-					color = { 63 246 72 }
-					province = 4
-				}
-
-				b_EASTCAPE2 = {
-					color = { 63 246 72 }
-					province = 5
-				}
-
-				b_EASTCAPE3 = {
-					color = { 63 246 72 }
-					province = 6
-				}
-			}
-
-			c_west_cape_renzar = {
-				color = { 73 246 62 }
-
-				b_WESTCAPE1 = {
-					color = { 73 246 62 }
-					province = 7
-				}
-
-				b_WESTCAPE2 = {
-					color = { 73 246 62 }
-					province = 8
-				}
-
-				b_WESTCAPE3 = {
-					color = { 73 246 62 }
-					province = 9
-				}
-			}
-
-			c_eastwatch = {
-				color = { 53 246 72 }
-
-				b_eastwatch = {
-					color = { 53 246 72 }
-					province = 15
-				}
-
-				b_eastcoast_by_the_cape = {
-					color = { 53 246 72 }
-					province = 13
-				}
-
-				b_eastcoast_by_alturai = {
-					color = { 53 246 72 }
-					province = 14
-				}
-			}
-
-			c_wastes_of_east_renzar = {
-				color = { 53 246 62 }
-
-				b_fort_between_the_sisters = {
-					color = { 53 246 62 }
-					province = 16
-				}
-
-				b_deep_plains_of_eastern_renzar = {
-					color = { 53 246 62 }
-					province = 17
-				}
-
-				b_eastplains = {
-					color = { 53 246 62 }
-					province = 18
-				}
-			}
-		}
-	}
-
-	k_symphonia = {
-		color = { 200 100 100 }
-		capital = c_symphonian_coast
-
-		d_northern_symphonia = {
-			color = { 200 100 100 }
-			capital = c_symphonian_coast
-
-			c_symphonian_coast = {
-				color = { 200 100 100 }
-
-				b_symphonian_coast = {
-					color = { 196 111 102 }
-					province = 25
-				}
-			}
-		}
-	}
+        b_fort_between_the_sisters = {
+          province = 16
+          color = { 53 246 62 }
+        }
+        b_deep_plains_of_eastern_renzar = {
+          province = 17
+          color = { 53 246 62 }
+        }
+        b_eastplains = {
+          province = 18
+          color = { 53 246 62 }
+        }
+      }
+    }
+  }
 }
-

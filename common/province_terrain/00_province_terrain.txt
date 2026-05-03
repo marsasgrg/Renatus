@@ -1,8 +1,6 @@
 ﻿default_land=plains
 default_sea=sea
 default_coastal_sea=coastal_sea
-
-
 1=plains
 2=plains
 3=plains
@@ -12,6 +10,9 @@ default_coastal_sea=coastal_sea
 7=plains
 8=plains
 9=plains
+10=sea
+11=sea
+12=plains
 13=plains
 14=plains
 15=plains
@@ -24,4 +25,3 @@ default_coastal_sea=coastal_sea
 22=plains
 23=plains
 24=plains
-25=plains

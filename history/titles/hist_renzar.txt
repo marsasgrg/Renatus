@@ -1,16 +1,13 @@
-﻿c_east_cape_renzar = {
-	400.1.1 = {
-		holder = renzar_simeon_first
-	}
-	435.1.1 = {
-		holder = renzar_simeon_second
-	}
+k_renzar = {
 	480.1.1 = {
-		holder = renzar_simeon_third
-		liege = k_renzar
+		holder = renzar_aleksandr_first
 	}
+	498.7.6 = {
+		holder = renzar_boris_first
+	}
+
 }
-c_eastwatch = {
+d_east_renzar = {
 	400.1.1 = {
 		holder = renzar_simeon_first
 	}
@@ -34,18 +31,6 @@ c_north_cape_renzar = {
 		liege = k_renzar
 	}
 }
-c_wastes_of_east_renzar = {
-	400.1.1 = {
-		holder = renzar_simeon_first
-	}
-	435.1.1 = {
-		holder = renzar_simeon_second
-	}
-	480.1.1 = {
-		holder = renzar_simeon_third
-		liege = k_renzar
-	}
-}
 c_west_cape_renzar = {
 	400.1.1 = {
 		holder = renzar_simeon_first
@@ -58,27 +43,32 @@ c_west_cape_renzar = {
 		liege = k_renzar
 	}
 }
-c_west_renzar = {
-	435.1.1 = {
-		holder = renzar_aleksandr_first
-		liege = d_west_renzar
+c_east_cape_renzar = {
+	400.1.1 = {
+		holder = renzar_simeon_first
 	}
-	498.7.6 = {
-		holder = renzar_boris_first
-		liege = d_west_renzar
+	435.1.1 = {
+		holder = renzar_simeon_second
+	}
+	480.1.1 = {
+		holder = renzar_simeon_third
+		liege = k_renzar
 	}
 }
-c_westwatch = {
-	435.1.1 = {
-		holder = renzar_aleksandr_first
-		liege = d_west_renzar
+c_eastwatch = {
+	400.1.1 = {
+		holder = renzar_simeon_first
 	}
-	498.7.6 = {
-		holder = renzar_boris_first
-		liege = d_west_renzar
+	435.1.1 = {
+		holder = renzar_simeon_second
+	}
+	480.1.1 = {
+		holder = renzar_simeon_third
+		liege = k_renzar
 	}
 }
-d_east_renzar = {
+
+c_wastes_of_east_renzar = {
 	400.1.1 = {
 		holder = renzar_simeon_first
 	}
@@ -102,11 +92,23 @@ d_west_renzar = {
 		liege = k_renzar
 	}
 }
-k_renzar = {
-	480.1.1 = {
+c_west_renzar = {
+	435.1.1 = {
 		holder = renzar_aleksandr_first
+		liege = d_west_renzar	
 	}
 	498.7.6 = {
 		holder = renzar_boris_first
+		liege = d_west_renzar
+	}
+}
+c_westwatch = {
+	435.1.1 = {
+		holder = renzar_aleksandr_first
+		liege = d_west_renzar	
+	}
+	498.7.6 = {
+		holder = renzar_boris_first
+		liege = d_west_renzar
 	}
 }
